@@ -5,7 +5,7 @@ from blogging.models import Post
 
 class LatestEntriesFeed(Feed):
     title = "Posts"
-    link = "/blogging/"
+    link = "/"
     description = "Updates on changes to things I like."
 
     def items(self):
